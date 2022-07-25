@@ -8,7 +8,7 @@ def clear():
         print
 
 def add_book():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     
     clear()
@@ -26,7 +26,7 @@ def add_book():
         wait = input('\n\n\n Press any key to continue....')
 
 def liat_buku():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     
     clear()
@@ -36,7 +36,7 @@ def liat_buku():
     conn.close()           
 
 def add_name():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     
     clear()
@@ -53,7 +53,7 @@ def add_name():
     wait = input('\n\n\n Press any key to continue....')
 
 def liat_user():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     
     clear()
@@ -64,7 +64,7 @@ def liat_user():
     wait = input('\n\n\n Press any key to continue....')
 
 def minjem():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     
     clear()
@@ -100,7 +100,7 @@ def minjem():
         wait = input('\n\n\n Press any key to continue....')
 
 def liat_pinjam():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     
     clear()
@@ -111,7 +111,7 @@ def liat_pinjam():
     wait = input('\n\n\n Press any key to continue....')
 
 def balikin():
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     global fine_per_day
     clear()
@@ -135,7 +135,7 @@ def balikin():
     wait = input('\n\n\n Press any key to continue....')
 
 def cari_buku(field):
-    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="123456")
+    conn = mysql.connector.connect(host="localhost", database="tugas_perpus", user="root", password="")
     cursor = conn.cursor()
     clear()
     
