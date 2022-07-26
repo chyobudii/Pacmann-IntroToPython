@@ -6,7 +6,7 @@ Cahyo Budi Prayogo  cahyo-Va6s
 This is a assignment of Python class from course at Pacmann. LMS Project, this project is designed to manage the administration of a library. 
 Basic functionality covers adding new books, searching for books, add new user, etc
 
-# Recuirements
+# Requirements
 Library Management System in this project using `python3` as program, `MySQL` as database and library `mysql-connector-python` to connect program to database
 
 # Getting Started
